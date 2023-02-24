@@ -3,7 +3,7 @@ function waterCount() {
   const weight = Math.abs(document.getElementById("weight").value);
   const activity = Math.abs(document.getElementById("activity").value);
   const elem = document.querySelector("#results");
-  let result = "fwefufjwefujweufjwewf";
+  let result = "no data entered";
   if (age <= 5 && age > 0) {
     result = Math.round((weight * 0.04 + activity * 0.4) * 100) / 100;
   } else if (age > 5) {
